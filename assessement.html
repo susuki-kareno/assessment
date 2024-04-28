@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assessment.css">
+    <title>An assessment of your good points</title>
+  </head>
+  <h1>What is your good points?</h1>
+  <p>Please enter your name</p>
+  <input type="text" id="user-name" size="40" maxlength="20">
+  <button id="assessment">Assesment</button>
+  <div id="result-area"></div>
+  <div id="tweet-area">
+    <script>
+      !function(d,s,id>{
+        var js, fjs=d.getElementsByTagName(s)[0], p=/^http:/.test(d.location)?'http':'https';
+        if(!d.getElementsById(id)){
+          js=d.createElements(s);
+          js.id=id;
+          js.src=p+'://platform.twitter.com/widgets.js';
+          fjs.parentNode.insertBefore(js,fjs);
+        }
+      }
+      (document, 'script', 'twitter-wjs');
+    </script>
+  </div>
+  <script src="assessment.js"></script>
+</html>
