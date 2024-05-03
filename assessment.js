@@ -81,7 +81,7 @@
     // div sum by answers num and get answers index
     const index = sumOfcharCode % answers.length;
     let result = answers[index];
-    result = rersult.replace(/{userName}/g, userName);
+    result = result.replace(/{userName}/g, userName);
     return result;
   }
 
