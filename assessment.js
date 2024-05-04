@@ -54,7 +54,7 @@
     '{userName}のいいところは情熱です。{userName}の情熱に周りの人は感化されます。',
     '{userName}のいいところは厳しさです。{userName}の厳しさが成功をもたらします。',
     '{userName}のいいところは知識です。{userName}の博識を人々が頼りにしています。',
-    '{userName}のいいところはユニークさです。{userName}の特徴が皆を楽しくさせます。',
+    '{userName}のいいところはユニークさです。{userName}の個性が皆を楽しくさせます。',
     '{userName}のいいところは用心深さです。{userName}の洞察力に人々が助けられます。',
     '{userName}のいいところは見た目です。{userName}の魅力に皆が気をひかれます。',
     '{userName}のいいところは決断力です。{userName}の決断に助けられる人々がいます。',
@@ -88,7 +88,7 @@
 
   // test code
   console.assert(
-    assessment('太郎') === '太郎のいいところは決断力です。太郎の決断に助けられる人々がいます。',
+    assessment('太郎') === '太郎のいいところはユニークさです。太郎の個性が皆を楽しくさせます。',
     'Error at replace user-name'
   );
   console.assert(
